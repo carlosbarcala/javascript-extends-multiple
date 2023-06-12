@@ -3,9 +3,11 @@ The code extends multiple classes in JavaScript by creating a new class that com
 
 
 ## how to use
+```
 class GameObject {
     enable = true;  
 }
+```
 
 class Sprite extends GameObject {
     resource = null;
