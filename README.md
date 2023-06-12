@@ -3,12 +3,10 @@ The code extends multiple classes in JavaScript by creating a new class that com
 
 
 ## how to use
-```
+```javascript
 class GameObject {
     enable = true;  
 }
-```
-
 class Sprite extends GameObject {
     resource = null;
 }
@@ -58,4 +56,7 @@ console.log( sprite.instanceof( GameObject ) );
 console.log( character.instanceof(Character) );
 console.log( character2D.instanceof(Character) );
 console.log( character3D.instanceof(Character) );
+```
+
+
 
